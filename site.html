@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site Gislaine</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <header>
+        <nav class="menu">
+        <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portfolio">Skills</a></li>
+        <li><a href="#contato">Contato</a></li>
+        </ul>
+        </nav>
+        <div class="titulos" id="titulos">
+        <h1 class="site-title">Gislaine Mello</h1>
+        <h2 class="site-subtitle">FrontEnd Developer</h2> 
+        <h2 class="site-subtitle">Support</h2> 
+        </div>
+    </header>
+
+    <section class="sobre" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="avatar">
+            <img src="img/Gislaine.jpeg" alt="">
+        </figure>
+        <p>Olá, tudo bem? Meu nome é Gislaine, tenho 19 anos e estou cursando Sistemas para Internet!</p>
+        <p>Atuo na área do suporte já faz 1 ano, e venho me interessando bastante pelo Front-End, porém, nunca atuei nesta área.</p>
+        <p>Sou uma pessoa que gosto de aprender coisas novas e estou sempre buscando conhecimentos para aprimorar minhas habilidades.</p>
+        <br>
+        <p>P.S. Este site foi construído durante a Imersão CSS da Alura :)</p>
+    </section>
+
+    <section class="portfolio"  id="portfolio">
+        <h2>Skills</h2>
+        <div class="grid">
+
+        <div class="flip-card">
+        <div class="card">  
+        <figure class="card-front">
+            <img class="img-portfolio" src="./img/suporte.png" alt="suporte">
+            <figcaption>Support</figcaption>
+        </figure>
+        <div class="card-back">
+            <img class="img-flip" src="img/pagueveloz.jpg">
+        </div>
+        </div>
+        </div> 
+
+        <div class="flip-card">
+        <div class="card">  
+        <figure class="card-front">
+            <img class="img-portfolio" src="./img/front.png" alt=">frontend">
+            <figcaption>Front-End</figcaption>
+        </figure>
+        <div class="card-back">
+        <img class="img-flip" src="img/site.png">
+        </div>
+        </div>
+        </div>
+
+        <div class="flip-card">
+        <div class="card">  
+        <figure class="card-front"> 
+            <img class="img-portfolio" src="./img/ingles.png" alt="english">
+            <figcaption>English</figcaption>
+        </figure>
+        <div class="card-back">
+        <img class="img-flip" src="img/folks.png">
+        </div>
+        </div>
+        </div>
+
+        <div class="flip-card">
+        <div class="card">  
+        <figure class="card-front">   
+            <img class="img-portfolio" src="./img/projetos.png" alt="Projetos pessoais">
+            <figcaption>Personal Projects</figcaption>
+        </figure>
+        <div class="card-back">
+        <img class="img-flip" src="img/alura.png">
+        </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+</section>
+
+
+        <section class="contato" id="contato">
+        <h2>Entre em contato comigo   :)</h2>
+        <form>
+        <label for="nome">Me diga seu nome:</label><br>
+        <input type="text" id="nome" class="padrao" required>
+        <br>
+        <br>
+        <label for="email">Seu e-mail</label><br>
+        <input type="email" id="email" class="padrao" required>
+        <br>
+        <br>
+        <label for="telefone">Seu telefone:</label><br>
+        <input type="tel" id="telefone" class="padrao">
+        <br>
+        <br>
+        <label for="mensagem">Escreva a sua mensagem:</label><br>
+        <textarea cols="70" rows="5" class="padrao" required></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" class="enviar">
+        </form>
+        </section>
+
+        <section class="icons">
+        <div class="grid-icons">
+        <figure>
+            <a href="https://github.com/gimelloc"><img class="img-icons" src="./img/github.png" alt="github"></a>
+        </figure>
+        <figure>
+            <a href="https://www.instagram.com/gimelloc/"><img class="img-icons" src="./img/instagram.png" alt=">instagram"></a>
+        </figure>
+        <figure>
+           <a href="https://twitter.com/gimelloc"> <img class="img-icons" src="./img/twitter.png" alt="twitter"></a>
+        </figure>
+        <figure>
+            <a href="https://www.linkedin.com/in/gislaine-mello-casa-663727158/"><img class="img-icons" src="./img/linkedin.png" alt="linkedin"></a>
+        </figure>
+        </div>
+        <br>
+        </section>
+
+</body>
+</html>
